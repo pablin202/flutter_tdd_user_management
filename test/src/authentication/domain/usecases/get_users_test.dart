@@ -31,5 +31,5 @@ void main() {
 }
 
 const fakeUserList = [
-  User(id: 1, createdAt: 'createdAt', name: 'name', avatar: 'avatar')
+  User(id: '1', createdAt: 'createdAt', name: 'name', avatar: 'avatar')
 ];
