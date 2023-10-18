@@ -1,4 +1,5 @@
 import 'package:equatable/equatable.dart';
+import 'package:tdd_flutter_sample/core/errors/exceptions.dart';
 
 abstract class Failure extends Equatable {
   final int statusCode;
@@ -12,4 +13,6 @@ abstract class Failure extends Equatable {
 
 class ApiFailure extends Failure {
   const ApiFailure({required super.statusCode, required super.message});
+  ApiFailure.fromException(ApiException exception)
+      : this(message: exception.message, statusCode: exception.statusCode);
 }
