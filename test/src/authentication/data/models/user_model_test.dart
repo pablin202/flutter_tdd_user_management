@@ -70,7 +70,7 @@ void main() {
       final result = userModelEmpty.copyWith(name: 'Paul');
       // Assert
       expect(result.name, equals('Paul'));
-      expect(result.name, equals(userModelEmpty.name));
+      expect(result.avatar, equals(userModelEmpty.avatar));
     });
   });
 
