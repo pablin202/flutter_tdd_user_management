@@ -56,9 +56,9 @@ Make sure to check the `pubspec.yaml` file for a complete list of dependencies.
 
 You can run unit tests and widget tests using the following commands:
 
-    ```bash
-    flutter test
-    ```
+```bash
+flutter test
+```
 
 ## API Server 
 
