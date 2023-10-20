@@ -52,7 +52,7 @@ Make sure to check the `pubspec.yaml` file for a complete list of dependencies.
     flutter run
     ```
    
-## Getting Started
+## Running Tests
 
 You can run unit tests and widget tests using the following commands:
 
