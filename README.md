@@ -37,11 +37,11 @@ Make sure to check the `pubspec.yaml` file for a complete list of dependencies.
 1. Clone this repository to your local machine:
 
    ```bash
-   git clone https://github.com/pablin202/your-project.git
+   git clone https://github.com/pablin202/flutter_tdd_user_management.git
     ```
 2. Navigate to the project's directory:
    ```bash
-    cd your-project
+    cd flutter_tdd_user_management
     ```
 3. Install the project dependencies using Flutter:   
     ```bash
